@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background-color: hsl(225, 100%, 98%);
+    font-family: "Red Hat Display", sans-serif;
+}
+h1 {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+.bg-desktop {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+.btn {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0.625rem;
+}
+.btn-pay {
+    border-radius: 0.5rem;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+.btn-pay:hover {
+    color: #fff;
+    background-color: hsl(241, 80%, 67%);
+}
+.btn-cancel { color: hsl(224, 23%, 55%);}
+.card { border-radius: 1rem;}
+.card-body { padding: 2rem;}
+.card-img-top { border-radius: 1rem 1rem 0 0;}
+.container { 
+    padding-top: 5rem;
+    width: 25rem;
+}
+.content {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-top: 0.125rem;
+}
+.content p { margin: 0;}
+.icon {
+    float: left;
+    width: 25%;
+    padding-right: 1rem;
+}
+.link {
+    float: right;
+    padding-top: 0.625rem;
+    width: 25%;
+}
+.link a {
+    color: hsl(245, 75%, 52%);
+    font-size: 12px;
+    font-weight: 700;
+}
+.link a:hover {
+    color: hsl(241, 80%, 67%);
+    text-decoration: none;
+}
+.middle-box {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.5rem;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.top-box { padding: 0.5rem;}
+
+@media screen and (max-width: 700px) {
+    body { background-color: hsl(225, 100%, 94%);}
+    .bg-desktop { display: none;}
+}
